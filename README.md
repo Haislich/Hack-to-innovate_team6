@@ -14,14 +14,10 @@ Indice:
 - [Approccio Tecnico;](https://github.com/Haislich/Hack-to-innovate_team6#hai-bisogno-di-una-mano-approccio-tecnico)
 - [Large Language Models](https://github.com/Haislich/Hack-to-innovate_team6#large-language-models)
 - [References;](https://github.com/Haislich/Hack-to-innovate_team6#references)
-  
-  -[Inclusione digitale](https://github.com/Haislich/Hack-to-innovate_team6#inclusione-digitale)
-  
-  -[Accessibilità](https://github.com/Haislich/Hack-to-innovate_team6#accessibilit%C3%A0)
-  
-  -[RAG AI & Generative AI](https://github.com/Haislich/Hack-to-innovate_team6#rag-ai--generative-ai)
-  
-  -[Altro](https://github.com/Haislich/Hack-to-innovate_team6#altro)
+  - [Inclusione digitale](https://github.com/Haislich/Hack-to-innovate_team6#inclusione-digitale)
+  - [Accessibilità](https://github.com/Haislich/Hack-to-innovate_team6#accessibilit%C3%A0)
+  - [RAG AI & Generative AI](https://github.com/Haislich/Hack-to-innovate_team6#rag-ai--generative-ai)
+  - [Altro](https://github.com/Haislich/Hack-to-innovate_team6#altro)
 
 ## UX/UI
 Per affrontare questo Hackathon siamo partiti da tre punti principali:
