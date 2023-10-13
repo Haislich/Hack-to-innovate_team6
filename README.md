@@ -5,8 +5,8 @@
 Questa è la repo del team 6 per l'hackaton organizzato da Codemotion, Hack to innovate.
 In questo readme vengono affrontate in breve: I'aproccio utilizzato per questa proposta e le motivazioni tecniche che hanno portato alla scelta di un framework RAG.
 
-
 Indice:
+
 - [UX/UI;](https://github.com/Haislich/Hack-to-innovate_team6#uxui)
   
   - [Prototipo Figma;](https://www.figma.com/proto/PbWAJc88VYP9eUOVKwBkhn/Team-6-Hackathon?page-id=1%3A2&type=design&node-id=1-67&viewport=532%2C364%2C0.09&t=z7NDR9yp63H9OjQ7-1&scaling=scale-down&mode=design)
@@ -20,12 +20,15 @@ Indice:
   - [Altro](https://github.com/Haislich/Hack-to-innovate_team6#altro)
 
 ## UX/UI
+
 Per affrontare questo Hackathon siamo partiti da tre punti principali:
+
 - Focus sull’app Mobile Intesa San Paolo;
 - Assenza di dati feedback degli utenti attuali dell’app;
 - Difficoltà di raccolta dati da interviste o surveys/ parlare con comunità con barriere accesso al digital banking;
 
 Alternativamente abbiamo:
+
 - Approcciato il problema da un POV più generale;
 - Parlato con persone intorno a noi che utilizzano strumenti di digital banking;
 - Identificato painpoints e touchpoint della loro customer journey;
@@ -34,52 +37,38 @@ La nostra ricerca ha identificato inizialmente come utenti, persone come i nostr
 Da qui abbiamo cercato di capire meglio chi fossero i nostri utendi e abbiamo definito un utenza non necessariamente di gente adulta o anziana, ma anche di giovani che hanno poca dimestichezza con la tetcnologia e le operazioni bancarie.
 Una volta capita la nostra utenza abbiamo sviluppato una persona (utente tipo) e di seguito riportiamo la Customer Journey Map utilizzata per capire meglio i suoi problemi, necessità e dubbi riguardo il percorso che affronta quando a contatto con l'app.
 
-#### **Customer Journey map:**
+### **Customer Journey map:**
 
-<img width="1258" alt="Team6 - Customer Journey Map_Basic Journey_first time user 1" src="https://github.com/Haislich/Hack-to-innovate_team6/assets/145855979/aa4ff9bf-1c5d-44ca-a530-26408f817d6f">
-
+<!-- <img width="1258" alt="Team6 - Customer Journey Map_Basic Journey_first time user 1" src="assets/Team6%20-%20Customer%20Journey%20Map_Basic%20Journey_first%20time%20user%201.png"> -->
+![Team6 - Customer Journey Map_Basic Journey_first time user 1](assets/Team6%20-%20Customer%20Journey%20Map_Basic%20Journey_first%20time%20user%201.png)
 Da qui abbiamo estrapolato tre principali painpoints:
-- Difficoltà d’uso delle tecnologie 
+
+- Difficoltà d’uso delle tecnologie
 - Poco interesse nella tecnologia
 - Necessità di supporto nella navigazione
 
 Abbiamo quindi specificato i passi successivi:
+
 - WHAT: Semplificare l’accesso alle operazioni effettuabili in-app in totale autonomia;
 - HOW: Tramite una barra di ricerca intelligente e una spiegazione step-by-step di come si effetuano le operazioni;
 - WHO: Per quei utenti non sanno come utilizzare l’app o hanno necessità di supporto;
 
-
-
-   
-
 Per lo sviluppo della feature abbiamo prima di tutto analizzato lo stato dell'arte dell'applicazione e di applicazioni di banking simili. Analizzando l'alberatura attuale dell'app abbiamo cercato di capire come inserire la nostra implementazione. La funzione *"Hai bisogno di una mano”*  contiene ora in se i tre menu attuali di AIUTO-CERCA- PARLA CON NOI.
 
+![Group 15](./assets/Group%2015.png)
 
-![Group 15](https://github.com/Haislich/Hack-to-innovate_team6/assets/145855979/fe2b980b-909c-4e2a-9dc2-08f28e51108e)
-
-
- 
 Capita la struttura dell'architettura dell'app, siamo passati alla prototipazione wireframe lo-fi delle schermate.
 
+![Group 14](./assets/Group%2014.png)
 
-![Group 14](https://github.com/Haislich/Hack-to-innovate_team6/assets/145855979/50837628-2076-450e-9d7d-731d76d22a23)
-
-
- 
 Quando la struttura generale ci è sembrata convincente, abbiamo continuato la prototipazione hi-fi. Per fare questo, abbiamo chiaramente mantenuto la UI dell'applicazione attuale e implementato la modalità assistita per gli utenti. Abbiamo seguito le specifiche del brand e il design system attuale per rendere il prototipo il più realistco possibile.
 Nel [file Figma a cui si ha accesso]([https://www.figma.com/file/PbWAJc88VYP9eUOVKwBkhn/Team-6-Hackathon?type=design&node-id=0%3A1&mode=design&t=iPfJCv2T3ev1n4Ih-1](https://www.figma.com/proto/PbWAJc88VYP9eUOVKwBkhn/Team-6-Hackathon?page-id=1%3A2&type=design&node-id=1-67&viewport=532%2C364%2C0.09&t=z7NDR9yp63H9OjQ7-1&scaling=scale-down&mode=design)), si può vedere la modalità con cui è possibile effettuare un'operazione esemplificativa. In questo caso l'opearazione è una ricarica telefonica.
 
-
-
-
-![gif1](https://github.com/Haislich/Hack-to-innovate_team6/assets/145855979/d53a0b62-47c2-4b09-8123-5d842105e1e3)![gif3](https://github.com/Haislich/Hack-to-innovate_team6/assets/145855979/69bc32fa-f0d7-473f-892d-da18f4813a26)![gif4](https://github.com/Haislich/Hack-to-innovate_team6/assets/145855979/f265e56f-450c-4780-bba6-95fb47a4d809)![gif5](https://github.com/Haislich/Hack-to-innovate_team6/assets/145855979/e218fbe9-61d5-47b7-9228-0c960b65bc4a)
-
-
-
-
+![gif1](./assets/gif1.gif)![gif3](./assets/gif3.gif)![gif4](./assets/gif4.gif)![gif5](./assets/gif5.gif)
 
 ## "Hai bisogno di una mano?": approccio tecnico
-In questo readme vengono affrontate in breve le motivazioni tecniche che hanno portato alla scelta di un framework RAG.
+
+In questa sezione vengono affrontate in breve le motivazioni tecniche che hanno portato alla scelta di un framework RAG.
 
 L'incremento delle capacità computazionali a nostra disposizione ha permesso di dare il via a una nuova era di digitalizzazione.
 
