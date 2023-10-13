@@ -11,7 +11,10 @@ Indice:
 - [Approccio Tecnico;](https://github.com/Haislich/Hack-to-innovate_team6#hai-bisogno-di-una-mano-approccio-tecnico)
 - [Large Language Models](https://github.com/Haislich/Hack-to-innovate_team6#large-language-models)
 - [References;](https://github.com/Haislich/Hack-to-innovate_team6#references)
--
+  -[Inclusione digitale](https://github.com/Haislich/Hack-to-innovate_team6#inclusione-digitale)
+  -[Accessibilità](https://github.com/Haislich/Hack-to-innovate_team6#accessibilit%C3%A0)
+  -[RAG AI & Generative AI](https://github.com/Haislich/Hack-to-innovate_team6#rag-ai--generative-ai)
+  -[Altro](https://github.com/Haislich/Hack-to-innovate_team6#altro)
 
 ## UX/UI
 Per affrontare questo Hackathon siamo partiti da tre punti principali:
@@ -122,39 +125,65 @@ In generale combinando entrambi gli approcci, è possibile sviluppare un modello
 ### Inclusione digitale
 
 [Inclusive digital innovation](https://open.gov.it/governo-aperto/innovazione-digitale-inclusiva)
+
 [Digital inclusion](https://digital-strategy.ec.europa.eu/en/policies/digital-inclusion)
+
+
 [What is digital inclusion ?](https://www.beconnectednetwork.org.au/news-events/what-digital-inclusion)
 
 ### Accessibilità
 
 [A Designer’s Guide to Documenting Accessibility & User Interactions](https://stephaniewalter.design/blog/a-designers-guide-to-documenting-accessibility-user-interactions/#kit)
+
 [Accessible but never boring (Part 2)](https://medium.com/transferwise-design/accessible-but-never-boring-part-2-e188db299bd0)
+
 [We’re missing the primary point of designing for accessibility](https://medium.com/design-bootcamp/were-missing-the-primary-point-of-designing-for-accessibility-421e4239ecee)
+
 [What Are Accessibility Overlays?](https://briefs.video/videos/what-are-accessibility-overlays/)
+
 [Web Accessibility in mind contrast checker](https://webaim.org/resources/contrastchecker/)
+
 [Eight shapes](https://eightshapes.com/)
+
 [Criteri di accessibilità](https://drive.google.com/file/d/13wFL77TLSJzJfc3V06M2iQPesrZFrl3W/view)
+
 [Intesa Sanpaolo accessible by design: dal design system all’assessment](https://www.youtube.com/watch?v=1LDWTCi1Axg)
+
 [Accessibility tutorial](https://www.w3schools.com/accessibility/)
+
 [Web Content Accessibility Guidelines (WCAG) 2.1](https://www.w3.org/Translations/WCAG21-it/)
 
 ### RAG AI & Generative AI
 
 [What are Generative AI models?](https://youtu.be/hfIUstzHs9A?si=hYsnIk68cnSOx7xg)
+
 [LLM Embeddings](https://www.youtube.com/watch?v=X5DZL58mBg0)
+
 [LLM Embeddings explained simply](https://llm.datasette.io/en/stable/embeddings/index.html)
+
 [Contexts in LLM](https://medium.com/@simon_attard/giving-large-language-models-context-2d1956a6a017)
+
 [Example of context in Github Copilot](https://twitter.com/marvinvonhagen/status/1657060506371346432?lang=en)
+
 [RAG for LLMs](https://www.hopsworks.ai/dictionary/retrieval-augmented-generation-llm#:~:text=Retrieval%2Daugmented%20generation%20(RAG),%2C%20and%20recent%2Frelevant%20knowledge.)
 [Hallucinations in LLMs](https://masterofcode.com/blog/hallucinations-in-llms-what-you-need-to-know-before-integration#:~:text=Hallucination%20in%20LLMs%20refers%20to,for%20organizations%20utilizing%20these%20models.)
+
 [Full Fine-Tuning, PEFT, Prompt Engineering, and RAG: Which One Is Right for You?](https://deci.ai/blog/fine-tuning-peft-prompt-engineering-and-rag-which-one-is-right-for-you/#:~:text=Fine%2Dtuning%20can%20be%20used,is%20the%20way%20to%20go.)
+
 [What is retrieval-augmented generation?](https://research.ibm.com/blog/retrieval-augmented-generation-RAG)
+
 [How to customize LLMs like ChatGPT with your own data and documents](https://bdtechtalks.com/2023/05/01/customize-chatgpt-llm-embeddings/)
+
 [Master Prompt Engineering: LLM Embedding and fine-tuning](https://www.promptengineering.org/master-prompt-engineering-llm-embedding-and-fine-tuning/)
+
 [Things I'm learning while training SuperHot](https://kaiokendev.github.io/til)
+
 [Demystifying embeddings 101](https://datasciencedojo.com/blog/embeddings-and-llm/)
+
 [Large Language Model - Wikipedia](https://en.wikipedia.org/wiki/Large_language_model)
+
 [What is a chatbot](https://www.ibm.com/topics/chatbots)
+
 [GPT best practices - OpenAi](https://platform.openai.com/docs/guides/gpt-best-practices)
 
 ### Altro
