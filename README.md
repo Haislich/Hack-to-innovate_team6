@@ -106,8 +106,6 @@ Il suo impiego dovrebbe essere limitato al caso in cui il solo framwork RAG non 
 
 In generale combinando entrambi gli approcci, è possibile sviluppare un modello con un linguaggio specializzato, robusto nei confronti dei casi limite e facilmente adattabile al contesto.
 
-
-
 ## References
 
 ### Inclusione digitale
@@ -115,7 +113,6 @@ In generale combinando entrambi gli approcci, è possibile sviluppare un modello
 [Inclusive digital innovation](https://open.gov.it/governo-aperto/innovazione-digitale-inclusiva)
 
 [Digital inclusion](https://digital-strategy.ec.europa.eu/en/policies/digital-inclusion)
-
 
 [What is digital inclusion ?](https://www.beconnectednetwork.org.au/news-events/what-digital-inclusion)
 
