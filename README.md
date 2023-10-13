@@ -8,12 +8,19 @@ In questo readme vengono affrontate in breve: I'aproccio utilizzato per questa p
 -
 Indice:
 - [UX/UI;](https://github.com/Haislich/Hack-to-innovate_team6#uxui)
+  
+  - [Prototipo Figma;](https://www.figma.com/proto/PbWAJc88VYP9eUOVKwBkhn/Team-6-Hackathon?page-id=1%3A2&type=design&node-id=1-67&viewport=532%2C364%2C0.09&t=z7NDR9yp63H9OjQ7-1&scaling=scale-down&mode=design)
+  
 - [Approccio Tecnico;](https://github.com/Haislich/Hack-to-innovate_team6#hai-bisogno-di-una-mano-approccio-tecnico)
 - [Large Language Models](https://github.com/Haislich/Hack-to-innovate_team6#large-language-models)
 - [References;](https://github.com/Haislich/Hack-to-innovate_team6#references)
+  
   -[Inclusione digitale](https://github.com/Haislich/Hack-to-innovate_team6#inclusione-digitale)
+  
   -[Accessibilità](https://github.com/Haislich/Hack-to-innovate_team6#accessibilit%C3%A0)
+  
   -[RAG AI & Generative AI](https://github.com/Haislich/Hack-to-innovate_team6#rag-ai--generative-ai)
+  
   -[Altro](https://github.com/Haislich/Hack-to-innovate_team6#altro)
 
 ## UX/UI
@@ -189,6 +196,9 @@ In generale combinando entrambi gli approcci, è possibile sviluppare un modello
 ### Altro
 
 [Le funzionalità dell'app | App Intesa Sanpaolo Mobile](https://www.youtube.com/watch?v=oLiY1nHtux8)
+
 [INTESA SANPAOLO: ISP MOBILE OVERALL DIGITAL EXPERIENCE LEADER IN THE EMEA AREA](https://www.reply.com/iriscube-reply/en/reply-intesa-sanpaolo-isp-mobile-overall-digital-experience-leader-area-emea)
+
 [Ricarica cellulare | App Intesa Sanpaolo Mobile](https://www.youtube.com/watch?v=FbGAccz4b7M)
+
 [Elderly users and their main challenges usability with mobile applications: a systematic review](https://link.springer.com/chapter/10.1007/978-3-030-23570-3_31)
