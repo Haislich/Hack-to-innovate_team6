@@ -13,7 +13,7 @@ Indice:
   
 - [Approccio Tecnico;](https://github.com/Haislich/Hack-to-innovate_team6#hai-bisogno-di-una-mano-approccio-tecnico)
 - [Large Language Models](https://github.com/Haislich/Hack-to-innovate_team6#large-language-models)
-- [References;](https://github.com/Haislich/Hack-to-innovate_team6#references)
+- [References:](https://github.com/Haislich/Hack-to-innovate_team6#references)
   - [Inclusione digitale](https://github.com/Haislich/Hack-to-innovate_team6#inclusione-digitale)
   - [Accessibilità](https://github.com/Haislich/Hack-to-innovate_team6#accessibilit%C3%A0)
   - [RAG AI & Generative AI](https://github.com/Haislich/Hack-to-innovate_team6#rag-ai--generative-ai)
@@ -36,7 +36,7 @@ Una volta capita la nostra utenza abbiamo sviluppato una persona (utente tipo) e
 
 #### **Customer Journey map:**
 
-<img width="1258" alt="Team6 - Customer Journey Map_Basic Journey_first time user 1" src="https://github.com/Haislich/Hack-to-innovate_team6/assets/145855979/8ed8d8a3-bc96-4f27-98f9-4b62ed2bfa7e">
+<img width="1258" alt="Team6 - Customer Journey Map_Basic Journey_first time user 1" src="https://github.com/Haislich/Hack-to-innovate_team6/assets/145855979/aa4ff9bf-1c5d-44ca-a530-26408f817d6f">
 
 Da qui abbiamo estrapolato tre principali painpoints:
 - Difficoltà d’uso delle tecnologie 
@@ -54,16 +54,15 @@ Abbiamo quindi specificato i passi successivi:
 
 Per lo sviluppo della feature abbiamo prima di tutto analizzato lo stato dell'arte dell'applicazione e di applicazioni di banking simili. Analizzando l'alberatura attuale dell'app abbiamo cercato di capire come inserire la nostra implementazione. La funzione *"Hai bisogno di una mano”*  contiene ora in se i tre menu attuali di AIUTO-CERCA- PARLA CON NOI.
 
-![Group 15](https://github.com/Haislich/Hack-to-innovate_team6/assets/145855979/e8e92218-cc19-414e-ab9a-6ec46f4e631c)
 
-
+![Group 15](https://github.com/Haislich/Hack-to-innovate_team6/assets/145855979/fe2b980b-909c-4e2a-9dc2-08f28e51108e)
 
 
  
 Capita la struttura dell'architettura dell'app, siamo passati alla prototipazione wireframe lo-fi delle schermate.
-![Group 14](https://github.com/Haislich/Hack-to-innovate_team6/assets/145855979/31d2b873-a453-4699-b251-5464918ca959)
 
 
+![Group 14](https://github.com/Haislich/Hack-to-innovate_team6/assets/145855979/50837628-2076-450e-9d7d-731d76d22a23)
 
 
  
@@ -73,10 +72,7 @@ Nel [file Figma a cui si ha accesso]([https://www.figma.com/file/PbWAJc88VYP9eUO
 
 
 
-![gif1](https://github.com/Haislich/Hack-to-innovate_team6/assets/145855979/58ec27f6-8117-4a0d-8e72-468fb405a0a8)![gif3](https://github.com/Haislich/Hack-to-innovate_team6/assets/145855979/3e6d44a1-eaf0-4d6a-af2a-64cf560adc8d)![gif4](https://github.com/Haislich/Hack-to-innovate_team6/assets/145855979/c73e0f6d-0bb6-41bc-821e-d964db782c16)![gif5](https://github.com/Haislich/Hack-to-innovate_team6/assets/145855979/8277e8b0-4d7f-4610-b189-113a49190422)
-
-
-   
+![gif1](https://github.com/Haislich/Hack-to-innovate_team6/assets/145855979/d53a0b62-47c2-4b09-8123-5d842105e1e3)![gif3](https://github.com/Haislich/Hack-to-innovate_team6/assets/145855979/69bc32fa-f0d7-473f-892d-da18f4813a26)![gif4](https://github.com/Haislich/Hack-to-innovate_team6/assets/145855979/f265e56f-450c-4780-bba6-95fb47a4d809)![gif5](https://github.com/Haislich/Hack-to-innovate_team6/assets/145855979/e218fbe9-61d5-47b7-9228-0c960b65bc4a)
 
 
 
