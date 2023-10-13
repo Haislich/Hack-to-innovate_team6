@@ -62,7 +62,7 @@ Capita la struttura dell'architettura dell'app, siamo passati alla prototipazion
 ![Group 14](./assets/Group%2014.png)
 
 Quando la struttura generale ci è sembrata convincente, abbiamo continuato la prototipazione hi-fi. Per fare questo, abbiamo chiaramente mantenuto la UI dell'applicazione attuale e implementato la modalità assistita per gli utenti. Abbiamo seguito le specifiche del brand e il design system attuale per rendere il prototipo il più realistco possibile.
-Nel [file Figma a cui si ha accesso]([https://www.figma.com/file/PbWAJc88VYP9eUOVKwBkhn/Team-6-Hackathon?type=design&node-id=0%3A1&mode=design&t=iPfJCv2T3ev1n4Ih-1](https://www.figma.com/proto/PbWAJc88VYP9eUOVKwBkhn/Team-6-Hackathon?page-id=1%3A2&type=design&node-id=1-67&viewport=532%2C364%2C0.09&t=z7NDR9yp63H9OjQ7-1&scaling=scale-down&mode=design)), si può vedere la modalità con cui è possibile effettuare un'operazione esemplificativa. In questo caso l'opearazione è una ricarica telefonica.
+Nel [prototio Figma](https://www.figma.com/proto/PbWAJc88VYP9eUOVKwBkhn/Team-6-Hackathon?page-id=1%3A2&type=design&node-id=1-67&viewport=532%2C364%2C0.09&t=z7NDR9yp63H9OjQ7-1&scaling=scale-down&mode=design), si può vedere la modalità con cui è possibile effettuare un'operazione esemplificativa. In questo caso l'opearazione è una ricarica telefonica.
 
 ![gif1](./assets/gif1.gif)![gif3](./assets/gif3.gif)![gif4](./assets/gif4.gif)![gif5](./assets/gif5.gif)
 
