@@ -5,19 +5,19 @@
 Questa è la repo del team 6 per l'hackaton organizzato da Codemotion, Hack to innovate.
 In questo readme vengono affrontate in breve le motivazioni tecniche che hanno portato alla scelta di un framework RAG.
 
-## Serve una mano ?
+## "Hai bisogno di una mano?"
 
 L'incremento delle capacità computazionali a nostra disposizione ha permesso di dare il via a una nuova era di digitalizzazione.
 
 L'avanzamento della digitalizzazione, se da un lato semplifica le operazioni per alcuni, le rende più complicate per altri. Vista l'adozione pressoché unanime di sistemi digitali, si richiede agli utenti finali uno sforzo sempre maggiore in termini di apprendimento.
 
-Tuttavia, non tutti gli utenti hanno le capacità, il tempo o i mezzi per imparare a utilizzare una nuova app per ogni cosa, e tendono quindi a richiedere aiuto a persone più capaci.
+Tuttavia, non tutti gli utenti hanno le capacità, il tempo o i mezzi per imparare a utilizzare una nuova app per ogni cosa, e tendono quindi a richiedere aiuto a persone con più esperienza.
 
 Nei casi peggiori, o nei casi in cui non ci sia nessuno disponibile, gli utenti sono scoraggiati ad utilizzare l'applicativo poichè trovano l'esecuzione del task troppo difficile.
 
-Questa strategia di abbandono non è sempre eseguibile; infatti, alcuni compiti possono essere eseguiti solo tramite l'applicativo. È importante, quindi, emancipare questi utenti e dar loro la possibilità di usufruire di servizi migliori senza dover aspettare un intervento esterno. Per fare ciò possiamo e dobbiamo utilizzare le innovazioni tecnologiche a nostro disposizione.
+Questa strategia di "abbandono" non è sempre eseguibile; infatti, alcuni compiti possono essere eseguiti solo tramite l'applicativo. È importante, quindi, emancipare questa tipologia di utenti e dar loro la possibilità di fruire di servizi inclusivi senza dover aspettare un intervento esterno. Per fare ciò possiamo e dobbiamo utilizzare le innovazioni tecnologiche a nostra disposizione.
 
-Le nuove svolte tecnologiche nell'ambito dell'intelligenza artificiale ci consentono di sostituire, almeno per compiti più basilari, l'ausilio di persone esterne. I Large Language Models sono di particolare interesse in questo contesto.
+Le nuove svolte tecnologiche nell'ambito dell'intelligenza artificiale ci consentono di sostituire, almeno per compiti più basilari, l'ausilio di persone esterne. I Large Language Models (LLM) sono di particolare interesse in questo contesto.
 
 ## Large Language Models
 
