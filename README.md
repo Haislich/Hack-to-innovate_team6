@@ -5,7 +5,7 @@
 Questa è la repo del team 6 per l'hackaton organizzato da Codemotion, Hack to innovate.
 In questo readme vengono affrontate in breve: I'aproccio utilizzato per questa proposta e le motivazioni tecniche che hanno portato alla scelta di un framework RAG.
 
--
+
 Indice:
 - [UX/UI;](https://github.com/Haislich/Hack-to-innovate_team6#uxui)
   
