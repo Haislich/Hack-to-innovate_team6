@@ -4,44 +4,8 @@
 
 Questa è la repo del team 6 per l'hackaton organizzato da Codemotion, Hack to innovate.
 In questo readme vengono affrontate in breve le motivazioni tecniche che hanno portato alla scelta di un framework RAG.
-
-## "Hai bisogno di una mano?"
-
-L'incremento delle capacità computazionali a nostra disposizione ha permesso di dare il via a una nuova era di digitalizzazione.
-
-L'avanzamento della digitalizzazione, se da un lato semplifica le operazioni per alcuni, le rende più complicate per altri. Vista l'adozione pressoché unanime di sistemi digitali, si richiede agli utenti finali uno sforzo sempre maggiore in termini di apprendimento.
-
-Tuttavia, non tutti gli utenti hanno le capacità, il tempo o i mezzi per imparare a utilizzare una nuova app per ogni cosa, e tendono quindi a richiedere aiuto a persone con più esperienza.
-
-Nei casi peggiori, o nei casi in cui non ci sia nessuno disponibile, gli utenti sono scoraggiati ad utilizzare l'applicativo poichè trovano l'esecuzione del task troppo difficile.
-
-Questa strategia di "abbandono" non è sempre eseguibile; infatti, alcuni compiti possono essere eseguiti solo tramite l'applicativo. È importante, quindi, emancipare questa tipologia di utenti e dar loro la possibilità di fruire di servizi inclusivi senza dover aspettare un intervento esterno. Per fare ciò possiamo e dobbiamo utilizzare le innovazioni tecnologiche a nostra disposizione.
-
-Le nuove svolte tecnologiche nell'ambito dell'intelligenza artificiale ci consentono di sostituire, almeno per compiti più basilari, l'ausilio di persone esterne. I Large Language Models (LLM) sono di particolare interesse in questo contesto.
-
-## Large Language Models
-
-I Large Language Models (LLM) sono modelli di Deep Learning progettati per comprendere e generalizzare il linguaggio umano. La loro utilità principale risiede nella loro capacità di elaborare il linguaggio e generare testi in modo avanzato. In particolare, questi modelli sono adatti per simulare una conversazione umana in cui un utente, magari incapace di completare un compito da solo, interagisce con un sistema di ChatBot per portare a termine il compito.
-
-Ci sono alcune considerazioni importanti da tenere a mente quando si utilizzano questi modelli:
-
-- **Ampia Quantità di Dati**: L'addestramento di questi modelli richiede una grande quantità di dati, non tutti attinenti al nostro dominio. Limitare il set di dati solo ai dati strettamente necessari potrebbe avere un effetto negativo, poiché il modello potrebbe diventare meno accurato.
-
-- **Output Probabilistico**: Gli output generati da questi modelli sono basati su probabilità, e la risposta del modello potrebbe non sempre essere coerente con la richiesta dell'utente o con il contesto specifico. Questa tendenza a produrre risposte incoerenti o irrazionali è conosciuta come "allucinazione".
-
-L'obiettivo desiderato è far sì che il ChatBot risponda in modo coerente al contesto specifico, ad esempio, nel nostro caso che agisca come ChatBot di "Intesa Sanpaolo". L'idea è di "allenare" il modello a comprendere e utilizzare termini e pattern specifici che potrebbero non essere pienamente rappresentati in un dataset di addestramento troppo ampio.
-
-Tuttavia, al momento dell'addestramento del modello, molte delle conoscenze necessarie potrebbero non essere state acquisite. Di conseguenza, per affrontare tali problematiche, raccomandiamo di adottare un approccio ibrido. Questo approccio combina un framework RAG per fornire al modello informazioni aggiuntive al di fuori del set di addestramento e specifiche dell'applicazione. Se necessario, potrebbe essere opportuno eseguire un fine-tuning per acquisire conoscenze specifiche del settore.
-
-Il framework RAG presenta numerosi vantaggi. In particolare, offre un'interpretabilità dell'output, permettendo di capire quale risorsa ha generato la risposta. Inoltre, è altamente adattabile a nuovi dati, riduce al minimo le allucinazioni e richiede un basso costo in termini di risorse e dati di addestramento.
-
-Il contesto fornito al modello tramite il framework RAG potrebbe però non essere sempre sufficiente. Questo può verificarsi, ad esempio, quando manca un vocabolario adeguato. In questi casi, potrebbe essere necessario eseguire un ulteriore fine-tuning per ottenere l'output desiderato.
-
-Il fine-tuning presenta diversi vantaggi, come una maggiore robustezza rispetto a casi limite e la capacità di operare in modo coerente in scenari specifici associati al dominio di interesse.
-A differenza del framework RAG, il fine-tuning richiede una notevole quantità di risorse computazionali, dati aggiuntivi, tempo e hardware specializzato.
-Il suo impiego dovrebbe essere limitato al caso in cui il solo framwork RAG non dia i risultati sperati.
-
-In generale combinando entrambi gli approcci, è possibile sviluppare un modello con un linguaggio specializzato, robusto nei confronti dei casi limite e facilmente adattabile al contesto.
+INDICE:
+- 
 
 ## UX/UI
 Per affrontare questo Hackathon siamo partiti da tre punti principali:
@@ -92,7 +56,7 @@ Capita la struttura dell'architettura dell'app, siamo passati alla prototipazion
 
  
 Quando la struttura generale ci è sembrata convincente, abbiamo continuato la prototipazione hi-fi. Per fare questo, abbiamo chiaramente mantenuto la UI dell'applicazione attuale e implementato la modalità assistita per gli utenti. Abbiamo seguito le specifiche del brand e il design system attuale per rendere il prototipo il più realistco possibile.
-Nel [file Figma a cui si ha accesso](https://www.figma.com/file/PbWAJc88VYP9eUOVKwBkhn/Team-6-Hackathon?type=design&node-id=0%3A1&mode=design&t=iPfJCv2T3ev1n4Ih-1), si può vedere la modalità con cui è possibile effettuare un'operazione esemplificativa. In questo caso l'opearazione è una ricarica telefonica.
+Nel [file Figma a cui si ha accesso]([https://www.figma.com/file/PbWAJc88VYP9eUOVKwBkhn/Team-6-Hackathon?type=design&node-id=0%3A1&mode=design&t=iPfJCv2T3ev1n4Ih-1](https://www.figma.com/proto/PbWAJc88VYP9eUOVKwBkhn/Team-6-Hackathon?page-id=1%3A2&type=design&node-id=1-67&viewport=532%2C364%2C0.09&t=z7NDR9yp63H9OjQ7-1&scaling=scale-down&mode=design)), si può vedere la modalità con cui è possibile effettuare un'operazione esemplificativa. In questo caso l'opearazione è una ricarica telefonica.
 
 
 
@@ -101,6 +65,51 @@ Nel [file Figma a cui si ha accesso](https://www.figma.com/file/PbWAJc88VYP9eUOV
 
 
    
+
+
+
+
+
+## "Hai bisogno di una mano?": approccio tecnico
+In questo readme vengono affrontate in breve le motivazioni tecniche che hanno portato alla scelta di un framework RAG.
+
+L'incremento delle capacità computazionali a nostra disposizione ha permesso di dare il via a una nuova era di digitalizzazione.
+
+L'avanzamento della digitalizzazione, se da un lato semplifica le operazioni per alcuni, le rende più complicate per altri. Vista l'adozione pressoché unanime di sistemi digitali, si richiede agli utenti finali uno sforzo sempre maggiore in termini di apprendimento.
+
+Tuttavia, non tutti gli utenti hanno le capacità, il tempo o i mezzi per imparare a utilizzare una nuova app per ogni cosa, e tendono quindi a richiedere aiuto a persone con più esperienza.
+
+Nei casi peggiori, o nei casi in cui non ci sia nessuno disponibile, gli utenti sono scoraggiati ad utilizzare l'applicativo poichè trovano l'esecuzione del task troppo difficile.
+
+Questa strategia di "abbandono" non è sempre eseguibile; infatti, alcuni compiti possono essere eseguiti solo tramite l'applicativo. È importante, quindi, emancipare questa tipologia di utenti e dar loro la possibilità di fruire di servizi inclusivi senza dover aspettare un intervento esterno. Per fare ciò possiamo e dobbiamo utilizzare le innovazioni tecnologiche a nostra disposizione.
+
+Le nuove svolte tecnologiche nell'ambito dell'intelligenza artificiale ci consentono di sostituire, almeno per compiti più basilari, l'ausilio di persone esterne. I Large Language Models (LLM) sono di particolare interesse in questo contesto.
+
+## Large Language Models
+
+I Large Language Models (LLM) sono modelli di Deep Learning progettati per comprendere e generalizzare il linguaggio umano. La loro utilità principale risiede nella loro capacità di elaborare il linguaggio e generare testi in modo avanzato. In particolare, questi modelli sono adatti per simulare una conversazione umana in cui un utente, magari incapace di completare un compito da solo, interagisce con un sistema di ChatBot per portare a termine il compito.
+
+Ci sono alcune considerazioni importanti da tenere a mente quando si utilizzano questi modelli:
+
+- **Ampia Quantità di Dati**: L'addestramento di questi modelli richiede una grande quantità di dati, non tutti attinenti al nostro dominio. Limitare il set di dati solo ai dati strettamente necessari potrebbe avere un effetto negativo, poiché il modello potrebbe diventare meno accurato.
+
+- **Output Probabilistico**: Gli output generati da questi modelli sono basati su probabilità, e la risposta del modello potrebbe non sempre essere coerente con la richiesta dell'utente o con il contesto specifico. Questa tendenza a produrre risposte incoerenti o irrazionali è conosciuta come "allucinazione".
+
+L'obiettivo desiderato è far sì che il ChatBot risponda in modo coerente al contesto specifico, ad esempio, nel nostro caso che agisca come ChatBot di "Intesa Sanpaolo". L'idea è di "allenare" il modello a comprendere e utilizzare termini e pattern specifici che potrebbero non essere pienamente rappresentati in un dataset di addestramento troppo ampio.
+
+Tuttavia, al momento dell'addestramento del modello, molte delle conoscenze necessarie potrebbero non essere state acquisite. Di conseguenza, per affrontare tali problematiche, raccomandiamo di adottare un approccio ibrido. Questo approccio combina un framework RAG per fornire al modello informazioni aggiuntive al di fuori del set di addestramento e specifiche dell'applicazione. Se necessario, potrebbe essere opportuno eseguire un fine-tuning per acquisire conoscenze specifiche del settore.
+
+Il framework RAG presenta numerosi vantaggi. In particolare, offre un'interpretabilità dell'output, permettendo di capire quale risorsa ha generato la risposta. Inoltre, è altamente adattabile a nuovi dati, riduce al minimo le allucinazioni e richiede un basso costo in termini di risorse e dati di addestramento.
+
+Il contesto fornito al modello tramite il framework RAG potrebbe però non essere sempre sufficiente. Questo può verificarsi, ad esempio, quando manca un vocabolario adeguato. In questi casi, potrebbe essere necessario eseguire un ulteriore fine-tuning per ottenere l'output desiderato.
+
+Il fine-tuning presenta diversi vantaggi, come una maggiore robustezza rispetto a casi limite e la capacità di operare in modo coerente in scenari specifici associati al dominio di interesse.
+A differenza del framework RAG, il fine-tuning richiede una notevole quantità di risorse computazionali, dati aggiuntivi, tempo e hardware specializzato.
+Il suo impiego dovrebbe essere limitato al caso in cui il solo framwork RAG non dia i risultati sperati.
+
+In generale combinando entrambi gli approcci, è possibile sviluppare un modello con un linguaggio specializzato, robusto nei confronti dei casi limite e facilmente adattabile al contesto.
+
+
 
 ## References
 
